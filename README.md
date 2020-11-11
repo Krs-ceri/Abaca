@@ -58,48 +58,14 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 "start": "sirv public --single"
 ```
 
-## Using TypeScript
-
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+## Dependencies
 
 ```bash
-node scripts/setupTypeScript.js
+npm i svelte-feather-icons
+npm i svelte-materialize
+npm i svelte-bootstrap
+npm i -D @beyonk/svelte-carousel
+npm i svelte-routing
 ```
 
-Or remove the script via:
 
-```bash
-rm scripts/setupTypeScript.js
-```
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
