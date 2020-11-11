@@ -13,7 +13,7 @@
 
 </script>
 
-<nav>
+<nav class="blue">
 	<div class="nav">
 		<a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 		<ul class="left hide-on-med-and-down">
