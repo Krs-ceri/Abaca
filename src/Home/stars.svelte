@@ -6,7 +6,7 @@
 	let x = "svelte";
 </script>
 
-<section class="section buttonEvent">
+<section class="section stars">
 <center><p>Evaluer votre dernier évenement a : {x}<p></center>
   <div class="rate">
     <input type="radio" id="star5" name="rate" value="5" />

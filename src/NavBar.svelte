@@ -28,7 +28,6 @@
 			
 			<Link to="/"><li><a href="#!">Connexion</a></li></Link>
 
-				
 			<li class="divider" tabindex="-1"></li>
 			
 			<Link to="/"><li><a href="#!">Mes informations</a></li></Link>
@@ -62,8 +61,6 @@
 </ul>
 
 <style>
-	.dropdown-content {
-		color: yellow;
-	}
+
 	
 </style>

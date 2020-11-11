@@ -58,12 +58,12 @@
 			}
 		</script>
 	</div>
-	<center><a class="waves-effect waves-light btn-small">Play !</a></center>
+	<center><a href="/event" class="waves-effect waves-light btn-small">Play !</a></center>
 </section>
 
 <style>
 	.demo {
-        	margin: 0 auto;
+        margin: 0 auto;
 		margin-top: 1%;
 		height: 341px;
 		width: 80vw;

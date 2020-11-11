@@ -8,6 +8,7 @@
 	import Profil from "./Home/Profil.svelte"
 	
 	import Game from "./Home/Game.svelte";
+	import Event from "./Home/Event.svelte";
 	
 	export let url = "";
 </script>
@@ -20,4 +21,8 @@
 		<Profil />
 		<Game />
 	</Route>
+	<Route path="/event">
+		<Navbar />
+		<Event />
+	</Route>		
 </Router>
